@@ -1,0 +1,107 @@
+{
+  "fullName":"Yu shako Jheng",
+  "jobTitle":"Fullstack Engineer",
+  "summary":{
+    "title":"Software Developer",
+    "description":"<p>I hold a Bachelor's degree in Computer Science and bring extensive experience as a software developer. My expertise lies in Angular 2, Node.js, Electron, and other JavaScript technologies. Over the past four years, I have been working on Angular 2+ projects based on the Electron platform.</p><p>In my senior-level role in front-end development, I led the design and implementation of user interfaces, focusing on high performance and accessibility across multiple platforms. My deep understanding of JavaScript has been crucial in driving successful outcomes.</p><p>I am confident that my coding background equips me to tackle any challenge and contribute to our company's success. I look forward to collaborating with the team to achieve great results.</p>"
+  },
+  "workExperience":{
+    "iTrustWellnessGroup":{
+      "companyName":"iTrust Wellness Group",
+      "workDayRange":"Sep 2023 ~ 2024 Sep",
+      "title":"Senior Front-End Developer",
+      "local":"USA South Carolina Greenville (remote)",
+      "description":[
+        {
+          "title":"Mental Health Care Clinic",
+          "body":""
+        },
+        {
+          "title":"Deployed a Node.js library server",
+          "body":"using Docker, ensuring scalable and reliable server management."
+        },
+        {
+          "title":"Developed an Angular front-end platform",
+          "body":"based on user stories, utilizing Angular FormControl to dynamically load JSON data for improved user interaction."
+        },
+        {
+          "title":"Configured AWS CodePipeline for CI/CD",
+          "body":"enabling automated deployments and increasing development efficiency by 70%"
+        },
+        {
+          "title":"Implemented Cypress for end-to-end automated testing",
+          "body":"resulting in a 30% increase in testing efficiency and more robust application quality."
+        },
+        {
+          "title":"Upgraded the project from Angular 15 to Angular 17",
+          "body":"modernizing outdated code and achieving a 90% improvement in build efficiency, which facilitated the team`s transition to writing code in the latest Angular 17 style."
+        }
+      ]
+    },
+    "ULICTekInc":{
+      "companyName":"ULIC Tek Inc.",
+      "workDayRange":"Jun 2019 ~ 2023 Aug",
+      "title":"Software Development Engineer",
+      "local":"Kaohsiung ,Taiwan",
+      "description":[
+        {
+          "title":"",
+          "body":"This is a contract-based software company that provides software services for Corel, Acer, and other companies."
+        },
+        {
+          "title":"",
+          "body":"I am primarily responsible for the projects:"
+        },
+        {
+          "title":"Photo Cloud",
+          "body":""
+        },
+        {
+          "title":"Node Framework Setup",
+          "body":"Established the foundation for a Node framework using NestJS and Configured Swagger to generate API documentation, resulting in a 50% improvement in team communication efficiency."
+        },
+        {
+          "title":"Cloud Service Deployment",
+          "body":"Published a photo cloud service on AWS Elastic Beanstalk using Docker. Developed a cloud-based photo file system utilizing AWS S3."
+        },
+        {
+          "title":"Infrastructure Configuration",
+          "body":"Set up SNS and SQS for service notifications on the AWS infrastructure.and Implemented IAM in the CI/CD pipeline for cryptography, ensuring the security of the system."
+        },
+        {
+          "title":"Multiro cutter",
+          "body":"I developed a member system using .NET Core and Angular 2. used the IdentityServer4 framework to manage user accounts and implemented third-party logins using the OAuth2 protocol, including Google and Apple logins."
+        },
+        {
+          "title":"Paint Shop Pro 2022",
+          "body":"Developed a photo editing software using the Angular 2 framework and canvas-based technology.Designed and implemented various UI/UX theme styles to enhance accessibility."
+        },
+        {
+          "title":"Planet9 Desktop",
+          "body":"Developed applications for the League of Legends (LOL) game using GraphQL and Angular 2. Built a UI component library using Angular Material. Developed a shared component to display icons by importing data for heroes, skills, mastery, and items.Created a tool that allows users to import the Mastery Tree into the game with a single click.Developed a Windows desktop application using Angular 2 and Electron. ngular2 and electron developed windows desktop app"
+        }
+      ]
+    },
+    "FootprintKu":{
+      "companyName":"Foot Print Ku",
+      "workDayRange":"Nov 2017 - May 2019",
+      "title":"Front-End Developer",
+      "local":"Kaohsiung ,Taiwan",
+      "description":[
+        {
+          "title":"Campus AI Competition Official Website (Angular):",
+          "body":"Developed and designed the CSS and HTML layout for the entire web page.and integrated RESTful APIs to bind and render data within Angular components."
+        },
+        {
+          "title":"Showcase Design Platform:",
+          "body":"Created and designed the CSS and HTML layout for the entire web page.and implemented the BEM methodology as the coding style specification for CSS."
+        }
+      ]
+    }
+  },
+  "educationalBackground":{
+    "dayRange":"Jun. 2012 - Aug. 2016",
+    "name":"Shu-Te University (STU)",
+    "title":"CSIE ,  Software Development"
+  }
+}
