@@ -57,7 +57,15 @@
         },
         {
           "title":"後端開發",
-          "body":"使用 NestJS 搭建 Node.js Express 後端架構，完成基於 MVC 模式的 API 開發，實現了 OAuth2 認證、照片上傳至 Amazon S3 以及用戶操作記錄功能。使用 .NET Core 架構設計並開發高效的 RESTful API，實現客戶資料的創建、讀取、更新與刪除（CRUD）功能。整合 Entity Framework Core 進行資料庫操作，優化查詢性能並確保資料的一致性與完整性。"
+          "body":"使用 NestJS 搭建 Node.js Express 後端架構，完成基於 MVC 模式的 API 開發，實現了 OAuth2 認證、照片上傳至 Amazon S3 以及用戶操作記錄功能。"
+        },
+        {
+          "title":"",
+          "body":"使用 .NET Core 架構設計並開發高效的 RESTful API，實現客戶資料的創建、讀取、更新與刪除（CRUD）功能。"
+        },
+        {
+          "title":"",
+          "body":"整合 Entity Framework Core 進行資料庫操作，優化查詢性能並確保資料的一致性與完整性。"
         },
         {
           "title":"API 文件生成",

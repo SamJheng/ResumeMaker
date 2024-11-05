@@ -34,7 +34,7 @@ const Editor: React.FC<EditorProps> = ({ children }) => {
     // 創建一個隱藏的鏈接來下載文件
     const link = document.createElement('a');
     link.href = url;
-    link.setAttribute('download', 'generated.pdf'); // 指定文件名
+    link.setAttribute('download', 'resume.pdf'); // 指定文件名
     document.body.appendChild(link);
     link.click();
 
