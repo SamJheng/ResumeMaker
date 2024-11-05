@@ -1,13 +1,20 @@
-import React, { ReactNode } from 'react';
+import React, { ReactNode, useContext } from 'react';
 import { useTranslation } from 'react-i18next';
+import { LanguageContext } from '../provider/language-provide';
 interface EditorProps {
   children: ReactNode;
 }
 
 const Editor: React.FC<EditorProps> = ({ children }) => {
-  const { i18n } = useTranslation();
-  const switchLanguage = (language: string) => {
-    i18n.changeLanguage(language);
+  const languageContext = useContext(LanguageContext);
+
+  if (!languageContext) {
+    throw new Error('MyComponent must be used within a LanguageProvider');
+  }
+
+  const { language,setLanguage } = languageContext;
+  const switchLanguage = (lang: string) => {
+    setLanguage(lang);
   };
   const exPdfClick = async ()=>{
      const requestOptions = {
@@ -16,7 +23,7 @@ const Editor: React.FC<EditorProps> = ({ children }) => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({ 
-          url: 'http://localhost:5173/v1'
+          url: `http://localhost:5173/${language}`
         })
     }
     const response = await fetch('http://localhost:3000/generate', requestOptions);
