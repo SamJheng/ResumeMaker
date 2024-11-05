@@ -1,5 +1,4 @@
 import React, { ReactNode, useContext } from 'react';
-import { useTranslation } from 'react-i18next';
 import { LanguageContext } from '../provider/language-provide';
 interface EditorProps {
   children: ReactNode;
@@ -23,7 +22,7 @@ const Editor: React.FC<EditorProps> = ({ children }) => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({ 
-          url: `http://localhost:5173/${language}`
+          url: `http://localhost:5173/ResumeMaker/#${language}`
         })
     }
     const response = await fetch('http://localhost:3000/generate', requestOptions);

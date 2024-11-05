@@ -1,11 +1,12 @@
 import {
-  createBrowserRouter,
+  // createBrowserRouter,
+  createHashRouter,
 } from "react-router-dom";
 import { Resume } from "../components/resume";
 import Editor from "../components/editor";
 import ResumeEN from "../components/resumeEn";
 import ResumeCH from "../components/resumeCh";
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: "/",
     element: 

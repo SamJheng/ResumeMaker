@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import Banner from "./banner";
-import { Trans } from 'react-i18next';
 import Avatars from "./avatars";
 import { CiMail, CiMap } from "react-icons/ci";
 import SkillItem from "./skill-item";
