@@ -1,9 +1,14 @@
 import React, { ReactNode } from 'react';
+import { useTranslation } from 'react-i18next';
 interface EditorProps {
   children: ReactNode;
 }
 
 const Editor: React.FC<EditorProps> = ({ children }) => {
+  const { i18n } = useTranslation();
+  const switchLanguage = (language: string) => {
+    i18n.changeLanguage(language);
+  };
   const exPdfClick = async ()=>{
      const requestOptions = {
         method: 'POST',
@@ -17,7 +22,6 @@ const Editor: React.FC<EditorProps> = ({ children }) => {
     const response = await fetch('http://localhost:3000/generate', requestOptions);
     
     const blob = await response.blob();
-    console.log(blob)
     const url = window.URL.createObjectURL(blob);
     
     // 創建一個隱藏的鏈接來下載文件
@@ -33,9 +37,12 @@ const Editor: React.FC<EditorProps> = ({ children }) => {
   }
   return (
     <>
-      <div className='flex m-4'>
-        <div onClick={exPdfClick} className="cursor-pointer rounded-lg p-2 flex items-center justify-center bg-blue-500 shadow-lg text-white">Export PDF</div>
+      <div className='flex m-4 justify-around'>
+        <button onClick={exPdfClick} className="cursor-pointer rounded-lg p-2 flex items-center justify-center bg-blue-500 shadow-lg text-white">Export PDF</button>
+        <button onClick={() => switchLanguage('en')} className="cursor-pointer rounded-lg p-2 flex items-center justify-center bg-orange-500 shadow-lg text-white">English</button>
+        <button onClick={() => switchLanguage('ch')} className="cursor-pointer rounded-lg p-2 flex items-center justify-center bg-green-500 shadow-lg text-white">中文</button>
       </div>
+      
       <div className='flex justify-center'>
         <div id="pdfPanel" className='shadow-md w-[1000px] h-auto'>
           {children}

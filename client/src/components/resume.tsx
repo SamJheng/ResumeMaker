@@ -132,7 +132,7 @@ export function Resume() {
           <div className="flex-1">
             {iTrustWellnessGroupDescriptions.map((item, index) => (
               <div key={index} className="mb-2">
-                <h3 className="font-bold mb-1">{item.title}</h3>
+                <h3 className="font-bold mb-1 text-lg">{item.title}</h3>
                 <p>{item.body}</p>
               </div>
             ))}
@@ -148,7 +148,7 @@ export function Resume() {
           <div className="flex-1">
             {ULICTekIncDescriptions.map((item, index) => (
               <div key={index} className="mb-2">
-                <h3 className="font-bold mb-1">{item.title}</h3>
+                <h3 className="font-bold mb-1 text-lg">{item.title}</h3>
                 <p>{item.body}</p>
               </div>
             ))}
@@ -164,7 +164,7 @@ export function Resume() {
           <div className="flex-1">
             {FootprintKuDescriptions.map((item, index) => (
               <div key={index} className="mb-2">
-                <h3 className="font-bold mb-1">{item.title}</h3>
+                <h3 className="font-bold mb-1 text-lg">{item.title}</h3>
                 <p>{item.body}</p>
               </div>
             ))}

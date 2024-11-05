@@ -10,8 +10,8 @@ import i18n from "i18next";
 import initI18n from './i18n';
 
 // import App from './App.tsx'
-await initI18n();
-await createRoot(document.getElementById('root')!).render(
+initI18n();
+createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <I18nextProvider i18n={i18n}>
       <RouterProvider router={router} />

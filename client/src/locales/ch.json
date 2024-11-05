@@ -1,0 +1,112 @@
+{
+  "fullName":"鄭宇佋",
+  "jobTitle":"Fullstack Engineer",
+  "summary":{
+    "title":"軟體工程師",
+    "description":"<p>我畢業於樹德科技大學資訊工程系畢業之後在多家公司工作後累積豐富的軟體開發經驗尤其是在前端技術領域，我擅長使用 Angular 2、Node.js、Electron 等 JavaScript 技術，這些技能使我能夠應對各種不同的開發挑戰，包括桌面應用程式、後端開發和網頁應用程式等。 </p><p>作為一名前端開發工程師有大約5年以上的開發經驗，參與了多個項目的設計與開發，還主導了使用者介面的整體設計與實現。我在設計中特別注重效能優化，確保應用在各種設備和平台上都能夠流暢運行。同時，我也非常關注無障礙設計，致力於讓更多的使用者能夠方便地使用我們的應用。 </p><p>擁有在外商工作的經驗與美國的主管有合作討論需求，在專案上幫助團隊建置CI/CD在AWS codepipeline上實行前端的自動交付自動部屬讓開發效率大大提升，將 Angular 專案從版本 15 升級至 17，並使用 Vite 替代 Webpack，將專案打包時間從 1 分鐘優化至 10 秒。也移除了Module等機制讓其他人降低撰寫專案門檻。 </p><p>在過去的工作中，我因高度的責任感和對成就的追求經常需要配合美國時差日夜顛倒，這讓我意識到保持工作與生活的平衡對於長期的職業發展和個人健康至關重要。這段經歷讓我學會了如何更有效地管理時間和壓力，並促使我暫時暫別職業生涯，專注於調養身體和心理健康。 </p><p>在這段期間，我積極參與了讀書會進一步深化了對其他領域開發的理解，如系統設計的讀書會，還有自己做Side project，這不僅讓我保持了技術上的敏銳度，還提升了我的協作能力和問題解決能力。 </p><p>這段時間的休息與自我提升，使我更加堅定了回歸職場的決心。我現在更加注重工作與生活的平衡，並且具備了更強的自我管理能力，能夠在高壓環境下依然保持高效和穩定的工作表現。我相信，憑藉我深厚的技術背景和豐富的實踐經驗，我已經準備好迎接新的挑戰，並為公司的成功做出實質性的貢獻。我非常期待能夠加入貴團隊，與大家共同推動創新，實現卓越的成果</p>"
+  },
+  "workExperience":{
+    "iTrustWellnessGroup":{
+      "companyName":"iTrust Wellness Group",
+      "workDayRange":"Sep 2023 ~ 2024 Sep",
+      "title":"Senior Front-End Developer",
+      "local":"USA South Carolina Greenville (remote)",
+      "description":[
+        {
+          "title":"就職於一家提供心理健康護理服務的診所，同時也向患者提供初級保健服務。",
+          "body":""
+        },
+        {
+          "title":"基本部屬: ",
+          "body":"Docker 部署Verdaccio 的 Node.js 函示庫伺服器。"
+        },
+        {
+          "title":"前端開發:",
+          "body":"Angular Form 從Json 資料轉成Form表單，基於使用者故事開發 Angular 前端平台。"
+        },
+        {
+          "title":"持續整合與持續交付 (CI/CD): ",
+          "body":"設置 AWS CodePipeline 從手動部屬實現自動部署，提升50%開發效率。"
+        },
+        {
+          "title":"端到端測試: ",
+          "body":"導入 Cypress E2E 自動化測試，增強測試效率覆蓋。"
+        },
+        {
+          "title":"前端框架升級: ",
+          "body":"將專案從 Angular 15 升級到 Angular 17，改善並現代化團隊中過時的程式碼，提升打包速度90%讓團隊可以用更新的開發方式。"
+        }
+      ]
+    },
+    "ULICTekInc":{
+      "companyName":"友立數位科技股份有限公司",
+      "workDayRange":"Jun 2019 ~ 2023 Aug",
+      "title":"軟體工程師",
+      "local":"高雄 ,台灣",
+      "description":[
+        {
+          "title":"公司概述",
+          "body":"就職於一家專注於接案的軟體公司，為 Corel、Acer 及其他企業提供軟體服務。"
+        },
+        {
+          "title":"後端開發",
+          "body":"使用 NestJS 搭建 Node.js Express 後端架構，完成基於 MVC 模式的 API 開發，實現了 OAuth2 認證、照片上傳至 Amazon S3 以及用戶操作記錄功能。使用 .NET Core 架構設計並開發高效的 RESTful API，實現客戶資料的創建、讀取、更新與刪除（CRUD）功能。整合 Entity Framework Core 進行資料庫操作，優化查詢性能並確保資料的一致性與完整性。"
+        },
+        {
+          "title":"API 文件生成",
+          "body":"採用 Swagger 自動生成 API 文件，提升團隊溝通效率達 50%。"
+        },
+        {
+          "title":"資料庫操作",
+          "body":"結合 TypeORM 與 NestJS，通過 ORM 操作 PostgreSQL，避免傳統 SQL 操作方式，提升開發效率與維護性。"
+        },
+        {
+          "title":"持續整合與部署",
+          "body":"使用 Docker 將應用封裝成映像檔，部署至 AWS Elastic Beanstalk。撰寫 Jenkins 腳本實現自動發布與自動化部署，提升部署效率與穩定性。"
+        },
+        {
+          "title":"跨平台桌面應用開發和前端應用開發",
+          "body":"利用 Electron 結合 Angular 框架開發跨平台桌面應用程式。應用 Factory Pattern，使 Mac 與 Windows 系統能調用相同的類別但執行不同的行為，提升代碼重用性與系統擴展性。"
+        },
+        {
+          "title":"",
+          "body":"實現 JWT (JSON Web Token) 認證機制，確保 API 的安全性與用戶身份驗證。"
+        },
+        {
+          "title":"",
+          "body":"採用 Angular 框架構建動態且響應式的用戶界面，提升用戶體驗和操作效率。"
+        },
+        {
+          "title":"",
+          "body":"使用 TypeScript 編寫可維護且可擴展的代碼，實現模組化和組件化開發。"
+        },
+        {
+          "title":"",
+          "body":"整合 RxJS 處理異步資料流，提升應用的性能與響應速度。"
+        }
+
+      ]
+    },
+    "FootprintKu":{
+      "companyName":"富比庫",
+      "workDayRange":"Nov 2017 - May 2019",
+      "title":"前端工程師",
+      "local":"高雄 ,台灣",
+      "description":[
+        {
+          "title":"校園 AI 競賽官方網站開發 (Angular)",
+          "body":"負責整個網站的 CSS 和 HTML 布局設計與開發，確保界面美觀且響應式。整合 RESTful API，將後端數據綁定並渲染至 Angular 元件中，提升網站的動態交互性與數據展示效果。"
+        },
+        {
+          "title":"Showcase Design Platform:",
+          "body":"創建並設計整個網站的 CSS 和 HTML 布局，確保界面一致性與用戶體驗。採用 BEM (Block, Element, Modifier) 方法作為 CSS 的編碼風格規範，提升代碼可讀性與維護性。"
+        }
+      ]
+    }
+  },
+  "educationalBackground":{
+    "dayRange":"Jun. 2012 - Aug. 2016",
+    "name":"樹德科技大學 (STU)",
+    "title":"資訊工程系"
+  }
+}
