@@ -25,12 +25,13 @@ export function Resume() {
     title: string;
     body: string;
   }[];
+  const summaryDescriptions = t('summary.description',{returnObjects: true}) as string[]
   return (
     <>
       <Banner>
         <Section>
           <div className="flex flex-col xl:flex-row">
-            <div className="flex-1 flex justify-center items-center flex-col">
+            <div className="flex-1 flex justify-center items-center flex-col mb-4 xl:mb-0">
               <Avatars srcUrl={photo}>
               </Avatars>
               <h3 className="text-2xl font-semibold mt-4">{t('fullName')}</h3>
@@ -46,7 +47,7 @@ export function Resume() {
             </div>
             <div className="flex-1">
               <h3 className="font-semibold text-xl mb-4">{t('summary.title')}</h3>
-              <Trans i18nKey="summary.description" components={{ p: <p className="mb-3" />}} />
+              {summaryDescriptions.map((item,index)=>(<p className="mb-1" key={index}>{item}</p>))}
             </div>
           </div>
         </Section>

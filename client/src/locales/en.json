@@ -3,7 +3,11 @@
   "jobTitle":"Fullstack Engineer",
   "summary":{
     "title":"Software Developer",
-    "description":"<p>I hold a Bachelor's degree in Computer Science and bring extensive experience as a software developer. My expertise lies in Angular 2, Node.js, Electron, and other JavaScript technologies. Over the past four years, I have been working on Angular 2+ projects based on the Electron platform.</p><p>In my senior-level role in front-end development, I led the design and implementation of user interfaces, focusing on high performance and accessibility across multiple platforms. My deep understanding of JavaScript has been crucial in driving successful outcomes.</p><p>I am confident that my coding background equips me to tackle any challenge and contribute to our company's success. I look forward to collaborating with the team to achieve great results.</p>"
+    "description":[
+      "I hold a Bachelor's degree in Computer Science and bring extensive experience as a software developer. My expertise lies in Angular 2, Node.js, Electron, and other JavaScript technologies. Over the past four years, I have been working on Angular 2+ projects based on the Electron platform.",
+      "In my senior-level role in front-end development, I led the design and implementation of user interfaces, focusing on high performance and accessibility across multiple platforms. My deep understanding of JavaScript has been crucial in driving successful outcomes.",
+      "I am confident that my coding background equips me to tackle any challenge and contribute to our company's success. I look forward to collaborating with the team to achieve great results."
+    ]
   },
   "workExperience":{
     "iTrustWellnessGroup":{

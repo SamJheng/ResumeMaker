@@ -17,7 +17,7 @@ const Editor: React.FC<EditorProps> = ({ children }) => {
     setLanguage(lang);
   };
   const exPdfClick = async ()=>{
-     const requestOptions = {
+     const requestOptions: RequestInit = {
         method: 'POST',
         headers: { 
           'Content-Type': 'application/json',
